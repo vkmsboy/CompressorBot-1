@@ -31,7 +31,6 @@
         "DOWNLOAD_DIR": {
             "description": "Download directory where to download files. Must ends with forward slash > / <.",
             "required": "True"
-            "value": "download/"
         }
     },
     "stack": "container",
