@@ -7,6 +7,10 @@ A Telegram Bot To Encode x265 (HEVC) / x264 (AVC) Via FFMPEG
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+### Deploying To Railway ⚙
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FNirusaki%2FCompressorBot&envs=API_HASH%2CAPI_ID%2CBOT_TOKEN%2CDOWNLOAD_DIR%2CSUDO_USERS&optionalEnvs=DOWNLOAD_DIR&API_HASHDesc=Get+it+by+creating+an+app+on+https%3A%2F%2Fmy.telegram.org&API_IDDesc=Get+it+by+creating+an+app+on+https%3A%2F%2Fmy.telegram.org&BOT_TOKENDesc=Get+it+by+creating+a+bot+on+https%3A%2F%2Ft.me%2FBotFather&DOWNLOAD_DIRDesc=Download+directory+where+to+download+files.+Must+ends+with+forward+slash+%3E+%2F+%3C.&SUDO_USERSDesc=List+of+sudo+user%27s+id%2C+separated+by+space.)
+
 <p align="center"><a href="https://t.me/Fiercenetwork"><img src="https://telegra.ph//file/1a3b74947b7aa5cd74a09.jpg" width="5000"></a></p> 
 <h1 align="center"><b>Encoder-Bot 🇮🇳 </b></h1>
 <h4 align="center">A Powerful, Smart And Simple Encoder Bot.</h4>
