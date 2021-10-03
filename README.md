@@ -1,7 +1,5 @@
-# Encoder Bot 🐭
+# Encoder Bot 
 A Telegram Bot To Encode x265 (HEVC) / x264 (AVC) Via FFMPEG
-
-> Added Optimize Settings To Encode x265 :)
 
 # Hosting 🖥
 
@@ -28,31 +26,3 @@ Add Values In Environment Variables or Add Them In [config.env](./config.env).
 
 ### Configuring Encoding Format
 To Change The FFMPEG Profile Edit Them In [ffmpeg_utils.py](./ffmpeg_utils.py)
-
-- Already Optimized For Some Qualities :)
-
-### Installing Requirements
-Install The Required Python Modules In Your Machine.
-```sh
-apt-get -qq install ffmpeg
-pip3 install -r requirements.txt
-```
-### Deployment
-With Python3.7 or Later.
-```sh
-python3 main.py
-```
-
-### Deploying on Heroku
-
-- Fork The Repository
-- Create an App On Heroku Add [The FFMPEG Buildpack](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest)
-- Fill In [config.env](./config.env)
-- Deploy 
-
-### Credits
-*Thanks to [ShannonScott](https://gist.github.com/ShannonScott) for [transcode_h265.py](https://gist.github.com/ShannonScott/6d807fc59bfa0356eee64fad66f9d9a8)*
-
-### Copyright & License
-- Copyright &copy; 2021 &mdash; [Adnan Ahmad](https://github.com/viperadnan-git)
-- Licensed Under The Terms Of The [GNU General Public License Version 3 &dash; 29 June 2007](./LICENSE)
