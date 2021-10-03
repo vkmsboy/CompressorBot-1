@@ -10,19 +10,19 @@
     "repository": "https://github.com/Nirusaki/CompressorBot",
     "env": {
         "API_ID": {
-            "description": "Get it by creating an app on https",
+            "description": "Get it by creating an app on https://my.telegram.org",
             "required": "True",
-            "value": "//my.telegram.org"
+            "value": ""
         },
         "API_HASH": {
-            "description": "Get it by creating an app on https",
+            "description": "Get it by creating an app on https://my.telegram.org",
             "required": "True",
-            "value": "//my.telegram.org"
+            "value": ""
         },
         "BOT_TOKEN": {
-            "description": "Get it by creating a bot on https",
+            "description": "Get it by creating a bot on https://t.me/BotFather",
             "required": "True",
-            "value": "//t.me/BotFather"
+            "value": ""
         },
         "SUDO_USERS": {
             "description": "List of sudo user's id, separated by space.",
@@ -31,6 +31,7 @@
         "DOWNLOAD_DIR": {
             "description": "Download directory where to download files. Must ends with forward slash > / <.",
             "required": "True"
+            "value": "download/"
         }
     },
     "stack": "container",
