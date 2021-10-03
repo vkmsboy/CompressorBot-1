@@ -2,6 +2,11 @@ from pyrogram import filters
 from bot import app, data, sudo_users
 from bot.helper.utils import add_task
 from pyrogram import types
+from bot import (
+    data,
+    crf,
+    watermark
+)
 
 video_mimetype = [
   "video/x-flv",
