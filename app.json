@@ -33,7 +33,7 @@
             "required": "True"
         }
     },
-    "stack": "heroku-20",
+    "stack": "stack",
     "buildpacks": [
         {
             "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
