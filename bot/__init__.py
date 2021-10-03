@@ -14,6 +14,8 @@ sudo_users = list(set(int(x) for x in os.environ.get("SUDO_USERS").split()))
 app = Client(":memory:", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 data = []
+crf = []
+watermark =[]
 
 if not download_dir.endswith("/"):
   download_dir = str(download_dir) + "/"
