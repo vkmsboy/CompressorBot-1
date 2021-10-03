@@ -1,0 +1,48 @@
+{
+    "name": "COMPRESSORBOT",
+    "logo": "https://telegra.ph//file/b6b86697fa4870208af78.jpg",
+    "description": "A Simple Hevc Compressor Bot",
+    "keywords": [
+        "Best",
+        "Hevc",
+        "Bot"
+    ],
+    "repository": "https://github.com/Nirusaki/CompressorBot",
+    "env": {
+        "API_ID": {
+            "description": "Get it by creating an app on https",
+            "required": "True",
+            "value": "//my.telegram.org"
+        },
+        "API_HASH": {
+            "description": "Get it by creating an app on https",
+            "required": "True",
+            "value": "//my.telegram.org"
+        },
+        "BOT_TOKEN": {
+            "description": "Get it by creating a bot on https",
+            "required": "True",
+            "value": "//t.me/BotFather"
+        },
+        "SUDO_USERS": {
+            "description": "List of sudo user's id, separated by space.",
+            "required": "True"
+        },
+        "DOWNLOAD_DIR": {
+            "description": "Download directory where to download files. Must ends with forward slash > / <.",
+            "required": "True"
+        }
+    },
+    "stack": "container",
+    "buildpacks": [
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
