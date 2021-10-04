@@ -1,5 +1,3 @@
-FROM nirusaki/compressorbot
-COPY requirements.txt .
-RUN pip3 install --no-cache-dir -r requirements.txt
-COPY . .
-CMD ["bash","start.sh"]
+COPY requirements.txt ./
+RUN pip install -y -r requirements.txt
+COPY ./"dir"/* .
