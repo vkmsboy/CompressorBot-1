@@ -1,5 +1,6 @@
-COPY requirements.txt /opt/app/requirements.txt
-WORKDIR /opt/app
-RUN pip install -r requirements.txt
-COPY . /opt/app
-RUN ".bash" "start.sh"
+FROM artemisfowl004/vid-compress
+WORKDIR /app
+COPY requirements.txt .
+RUN pip3 install --no-cache-dir -r requirements.txt
+COPY . .
+CMD ["bash","start.sh"]
